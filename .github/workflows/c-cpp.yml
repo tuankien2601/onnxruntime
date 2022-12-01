@@ -3,7 +3,7 @@ name: C/C++ CI
 on: [push]
 
 jobs:
-  ubuntu-build:
+  windows-build:
     runs-on: windows-latest
     steps:
     - name: Checkout
