@@ -12,7 +12,7 @@ jobs:
         vs-version: '[15.9)'
     - name: Checkout
       uses: actions/checkout@v2.0.0
-    - name: Hello world
+    - name: build
       run: |
         build.bat --config RelWithDebInfo --build_shared_lib --parallel
       shell: cmd
